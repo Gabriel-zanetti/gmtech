@@ -1,0 +1,207 @@
+body{
+    background: #ededed;
+}
+.menu{
+    position: fixed;
+    background: black;
+    width: 100%;
+      z-index: 3;
+    
+
+}
+.menu button{
+    border:none!important;
+}
+.corpo{
+    background: #ededed;
+    width: 100%;
+  
+    
+
+}
+.corpo img{
+    width:11rem;
+}
+.card{
+    width:13rem;
+    font-size:11px;
+    margin-left:10px;
+    margin-top:10px;
+
+
+}
+#gif{
+    width:30rem;
+}
+.negocia{
+    background:#111;
+}
+.fundo{
+     border:none!important;
+    position:fixed;
+    background: #111;
+    width: 100%;    
+    height: 40px;
+   bottom: 0px;
+   z-index:3;
+}
+.modal-body li{
+    color:#0c9f15;
+}
+.modal-body h5{
+    color:#069dbb;
+}
+#logo{
+    width: 20rem;
+}
+.fundo button{    
+      border:none!important;
+      font-size:14px;
+    }
+  
+    .pagina{
+        width:100%;
+    }
+
+@media screen and  (max-width:600px){
+  .pesquisa button{
+         display:none
+     
+    }
+
+
+    #logo{
+        width:8rem;
+    }
+    .pesquisa button{
+        border:none!important;
+        background:#0dcaf0;
+    }
+    .pesquisa input{
+        width:12rem;
+         border:none!important;
+         background:#0dcaf0;
+    }
+    .pesquisa{
+        background:#fff;
+        border-radius:10px;
+        background:#000000;
+
+    }
+    .fundo button{
+    
+      border:none!important;
+    }
+    .fundo{
+       bottom: 0px;
+       height:70px;
+
+    }
+    .corpo img{
+    width:11.9rem;
+}
+
+.card{
+    width:12.5rem;
+    font-size:11px;
+    margin-left:3px;
+    margin-top:10px;
+
+}
+    
+    @media screen and  (max-width:400px){
+      .pesquisa button{
+         display:none
+     
+    }
+
+
+    #logo{
+        width:5rem;
+    }
+    .pesquisa button{
+        border:none!important;
+        background:#0dcaf0;
+    }
+    .pesquisa input{
+        width:12rem;
+         border:none!important;
+         background:#0dcaf0;
+    }
+    .pesquisa{
+        background:#fff;
+        border-radius:10px;
+        background:#000000;
+
+    }
+    .fundo button{
+    
+      border:none!important;
+    }
+    .fundo{
+       bottom: 0px;
+       height:70px;
+
+    }
+    .corpo img{
+    width:10.9rem;
+}
+
+.card{
+    width:11rem;
+    font-size:11px;
+    margin-left:3px;
+    margin-top:10px;
+
+}
+ 
+    @media screen and  (max-width:340px){
+     .pesquisa button{
+         display:none
+     
+    }
+
+
+    #logo{
+        width:4rem;
+    }
+    .pesquisa button{
+        border:none!important;
+        background:#0dcaf0;
+    }
+    .pesquisa input{
+        width:11rem;
+         border:none!important;
+         background:#0dcaf0;
+    }
+    .pesquisa{
+        background:#fff;
+        border-radius:10px;
+        background:#000000;
+
+    }
+    .fundo button{
+    
+      border:none!important;
+    }
+    .fundo{
+       bottom: 0px;
+       height:70px;
+
+    }
+    .corpo img{
+    width:9.7rem;
+}
+
+.card{
+    width:9.8rem;
+    font-size:11px;
+    margin-left:2px;
+    margin-top:10px;
+
+}
+    
+}
+    
+}
+}

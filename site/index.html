@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gm Compras</title>
+ <meta charset="utf-8" /> 
+ <meta http-equiv="arial" content="text/html; charset=windows-1252">
+ <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+ <meta name="format-detection" content="telephone=no" />
+ <meta name="msapplication-tap-highlight" content="no" />
+ <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+ <link rel="shortcut icon" href="midia/icones/titulo/camera.png "  style="height:200px; width: 250px; ">
+ <script type="text/javascript" src="js/jquery.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+ <script src="bootstrap/js/bootstrap.min.js" type="text/ecmascript"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+<nav id="menu" class="menu">
+    <div class="collapse navbarNav" >
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Em breve mais recursos aqui</h5>
+      <span class="text-muted">gmtech atendendo sempre voce</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark ">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="midia/icones/logo/4.png" id="logo">
+          </button>
+    
+     
+
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            
+          <div class="collapse navbar-collapse  navbarNav" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" onclick="pesquisa.tag('seguranca',0,10);"> Seguranca Eletronica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="pesquisa.tag('eletrica',0,10);">eletrica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="pesquisa.tag('informatica',0,10);">informatica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="pesquisa.tag('automatizacao',0,10);">automacao</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <form class="d-flex pesquisa">
+        
+        <input class="form-control me-2" id="inputPesquisa"type="search" placeholder="&#9413;esquisa" aria-label="Search">
+        <button type="button" class="btn btn-light " onclick='pesquisa.tag( $("#inputPesquisa").val(),0,10)'>	
+         &#10148;
+        </button>
+   </form>
+      
+    </div>
+   
+
+    
+  </nav>
+
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header " id="modaltop">
+       </div>
+      <div class="modal-body " id="modalcentro">
+        <h5>Parabéns! Entrando em contato conosco:</h5>
+        <ul>
+          <li>Negociamos preço;</li>
+          <li>Forma de pagamento;</li>
+          <li>Explicações e duvidas desse e demais produtos;</li>
+          <li>E caso precise indicamos profissionais pra instalação;</li>
+          <li>Caso seja um profissional entre em contato será um prazer ter a sua parceria;</li>
+         
+        </ul>
+        <h5>Escolha o veículo de comunicação melhor para você! </h5>
+      </div>
+      <div class="navbar justify-content-center" id="modalbotao">
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+<nav id="corpo" class="corpo nav justify-content-center"></nav>
+<br>
+<nav class="navbar pagina justify-content-center " aria-label="Page navigation example">
+  <ul class="pagination" id="pagina">
+    
+  </ul>
+</nav>
+<br><br><br><br>
+
+
+<nav id="fundo " class="fundo"> 
+  <button type="button" class="btn btn-outline-primary" onclick="pesquisa.tag('camera',0,10);">#camera</button>
+  <button type="button" class="btn btn-outline-secondary" onclick="pesquisa.tag('alarme',0,10);">#alarme</button>
+  <button type="button" class="btn btn-outline-success" onclick="pesquisa.tag('interfone',0,10);">#interfone</button>
+  <button type="button" class="btn btn-outline-danger" onclick="pesquisa.tag('cabos',0,10);">#cabos</button>
+  <button type="button" class="btn btn-outline-warning" onclick="pesquisa.tag('lampadas',0,10);">#lampadas</button>
+  <button type="button" class="btn btn-outline-info" onclick="pesquisa.tag('automatizacao',0,10);">#automatizar</button>
+  <button type="button" class="btn btn-outline-light" onclick="pesquisa.tag('instalacao',0,10);">#instalacao</button>
+  <button type="button" class="btn btn-outline-dark" onclick="pesquisa.tag('ferramentas',0,10);">#ferramentas</button>
+</nav>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/pesquisa.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script >
+  $(document).ready(function() {
+    iniciar.inicia();
+  });
+</script>
+</html>
