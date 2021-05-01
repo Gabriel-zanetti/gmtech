@@ -36,7 +36,7 @@ var pesquisa ={
         console.log(id, nome, descricao, valorvista, parcelado, midia);
 	   $("#corpo").append(` 
 	   <div class="card justify-content-center" >
-		<img src="midia/icones/titulo/`+midia+`"  class="card-img-top" alt="...">
+		<img src="`+midia+`"  class="card-img-top" alt="...">
 		<div class="card-body">
 		<h6 class="card-title">`+nome+`</h6>
 		<p class="card-text">`+descricao+`</p>
