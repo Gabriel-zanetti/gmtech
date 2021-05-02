@@ -2,7 +2,7 @@ var modal ={
     modal:function(nome,id,midia){
     $("#modaltop").html(`
     <h5 class="modal-title" id="staticBackdropLabel">
-    <img src="midia/icones/titulo/`+midia+`" width="50" alt="">`+nome+`</h5>
+    <img src="https://docs.google.com/uc?id=`+midia+`" width="50" alt="">`+nome+`</h5>
     <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"><h5>X</h5> </button>
      `);
      $("#modalbotao").html(`
@@ -29,7 +29,7 @@ var modal ={
             <h5>Esses são os nossos contatos:</h5>
             <ul>
               <li><img src="midia/icones/icone/telefone.png" width="50" alt="">(28) 99928-0287</li>
-              <li><img src="midia/icones/icone/email.jpg" width="50" alt="">Gmtechseguranca@gmail.com</li>
+              <li><img src="midia/icones/icone/email.png" width="50" alt="">Gmtechseguranca@gmail.com</li>
               <li><img src="midia/icones/icone/zap.png" width="50" alt="">(28) 99928-0287</li>
               </ul>
             <h5>Estamos te aguardado ansiosamente!</h5>

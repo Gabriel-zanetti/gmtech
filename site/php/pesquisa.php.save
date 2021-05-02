@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header('Content-Type:' . "text/plain");
 
-$dbHost      =  'localhost' ; 
+$dbHost      =  '54.84.189.116' ; 
 $dbUsername  =  'root' ; 
 $dbPassword  =  'fla?flu123' ; 
 $dbName      =  'gmtech' ; 

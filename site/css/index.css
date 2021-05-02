@@ -9,8 +9,34 @@ body{
     
 
 }
+.carrinho{
+    border:none!important;
+    position:fixed;
+    background: #111111;
+    width: 80px;    
+    height: 80px;
+   bottom: 80px;
+   z-index:4;
+   margin-left:80%;
+border-radius: 100px;
+opacity:0;
+}
+.carrinho img{
+    width:9.6rem;
+    margin-left:-40px;
+    margin-top:-38px;
+    
+}
+.carrinho span{
+    margin-left:40px;
+   color:red;
+   font-size: 20px; 
+ border-radius: 100px;
+
+}
 .menu button{
     border:none!important;
+
 }
 .corpo{
     background: #ededed;
@@ -80,7 +106,7 @@ body{
     .pesquisa input{
         width:12rem;
          border:none!important;
-         background:#0dcaf0;
+         background:#00ec7d;
     }
     .pesquisa{
         background:#fff;
