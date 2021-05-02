@@ -9,31 +9,39 @@ body{
     
 
 }
+
+
+
 .carrinho{
+     animation-name: example;
+  animation-duration: 10s;
+    animation-iteration-count: 333;
+
     border:none!important;
     position:fixed;
-    background: #111111;
-    width: 80px;    
-    height: 80px;
-   bottom: 80px;
+     background: #00b1eb;
+   bottom: 74px;
    z-index:4;
-   margin-left:80%;
-border-radius: 100px;
-opacity:0;
+   margin-left:78%;
+   width: 90px; 
+    height: 90px;
+ border-radius: 100px;
+}
+@keyframes example {
+  0%   {background-color:#20b9ab;bottom: 70px;}
+  25%  {background-color:#10aed2;bottom: 78px }
+  50%  {background-color:#3297bde6;bottom: 70px}
+  75%  {background-color:#1132d6e6;bottom: 78px }
+  100% {background-color:#0dcaf0;bottom: 70px }
 }
 .carrinho img{
-    width:9.6rem;
-    margin-left:-40px;
-    margin-top:-38px;
-    
+    width: 80px;    
+    height: 80px; 
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
 }
-.carrinho span{
-    margin-left:40px;
-   color:red;
-   font-size: 20px; 
- border-radius: 100px;
 
-}
 .menu button{
     border:none!important;
 
@@ -72,7 +80,7 @@ opacity:0;
    z-index:3;
 }
 .modal-body li{
-    color:#0c9f15;
+    color:#74d3f2;
 }
 .modal-body h5{
     color:#069dbb;
@@ -106,7 +114,7 @@ opacity:0;
     .pesquisa input{
         width:12rem;
          border:none!important;
-         background:#00ec7d;
+         background:#00b1eb;
     }
     .pesquisa{
         background:#fff;

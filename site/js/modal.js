@@ -7,8 +7,8 @@ var modal ={
      `);
      $("#modalbotao").html(`
      <a type="button" class="btn" href="tel:028999280287" target="_blank"  onclick="modal.verifica()"><img src="midia/icones/icone/telefone.png"  width="50" alt=""></a>
-     <a type="button" class="btn" href="mailto:gmtechseguranca@gmail.com?Subject=`+nome+`%20da%20`+nome+` id=`+id+`" target="_blank" onclick="modal.verifica()"><img src="midia/icones/icone/email.jpg" width="50" alt=""></a>    
-     <a type="button" class="btn" href="https://api.whatsapp.com/send?phone=5528999280287&text=`+nome+`%20id%3D`+id+`%20" target="_blank" onclick="modal.verifica()"><img src="midia/icones/icone/zap.png" width="50" alt=""></a>
+     <a type="button" class="btn" href="mailto:gmtechseguranca@gmail.com?Subject=`+nome+`%20da%20`+nome+` codigo:`+id+`" target="_blank" onclick="modal.verifica()"><img src="midia/icones/icone/email.jpg" width="50" alt=""></a>    
+     <a type="button" class="btn" href="https://api.whatsapp.com/send?phone=5528999280287&text=`+nome+`%20codigo:%3D`+id+`%20" target="_blank" onclick="modal.verifica()"><img src="midia/icones/icone/zap.png" width="50" alt=""></a>
    `);
 
     },
