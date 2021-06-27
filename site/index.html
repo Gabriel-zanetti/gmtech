@@ -21,14 +21,21 @@
 <body>
 <nav id="menu" class="menu">
     <div class="collapse navbarNav" >
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Em breve mais recursos aqui</h5>
-      <span class="text-muted">gmtech atendendo sempre voce</span>
+    <div class="bg-dark p-4 submenu">
+      <h5 class="text-white h4">Atendemos castelo e região</h5>
+      <span class="text-muted">CNPJ: 27.275.065/0001-50</span>
+      <span class="text-muted"></span>
+      <h5 class="text-white h4">Contatos:</h5>
+      <nav><img src="midia/icones/icone/zap.png" width="30" alt=""> <span class="text-muted">(28) 99928-0287</span>  <span class="text-muted">(28) 99901-7073</span></nav>
+     
+      <nav><img src="midia/icones/icone/email.jpg.png" width="30" alt=""> <span class="text-muted">gmtechseguranca@gmail.com</span></nav>
+        
+      <nav><img src="midia/icones/icone/insta.png" width="30"  alt=""> <span class="text-muted">@gmtech_seguranca_informatica</span></nav>
     </div>
   </div>
   <nav class="navbar navbar-dark ">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" id="logo2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <img src="midia/icones/logo/4.png" id="logo">
           </button>
     
@@ -40,16 +47,16 @@
           <div class="collapse navbar-collapse  navbarNav" >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" onclick="pesquisa.tag('seguranca',0,10);"> Seguranca Eletronica</a>
+                <a class="nav-link active" aria-current="page" href="#" onclick="pesquisa.tag('seguranca',0,10);"> <img src="midia/icones/icone/seguranca.png" width="40" alt="">Seguranca Eletronica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="pesquisa.tag('eletrica',0,10);">eletrica</a>
+                <a class="nav-link active" href="#" onclick="pesquisa.tag('eletrica',0,10);"> <img src="midia/icones/icone/eletrica.png" width="45" alt="">Eletrica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="pesquisa.tag('informatica',0,10);">informatica</a>
+                <a class="nav-link active" href="#" onclick="pesquisa.tag('informatica',0,10);"> <img src="midia/icones/icone/informatica.png" width="38" alt=""> Informatica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="pesquisa.tag('automacao',0,10);">automacao</a>
+                <a class="nav-link active" href="#" onclick="pesquisa.tag('automacao',0,10);"> <img src="midia/icones/icone/automacao.png" width="38" alt=""> Automacao</a>
               </li> 
             </ul>
           </div>
@@ -57,7 +64,7 @@
       </nav>
       <form class="d-flex pesquisa">
         
-        <input class="form-control me-2" id="inputPesquisa"type="search" placeholder="&#9413;esquisa" aria-label="Search">
+        <input class="form-control me-2" id="inputPesquisa"type="search" placeholder="Produtos, marcas, ..." aria-label="Search">
         <button type="button" class="btn btn-light " onclick='pesquisa.tag( $("#inputPesquisa").val(),0,10)'>	
          &#10148;
         </button>
@@ -106,8 +113,8 @@
 </nav>
 <br><br><br><br>
 <nav id="carrinho" class="carrinho"> 
-   <img src="midia/icones/icone/carrinho.jpg">
-   
+   <img src="midia/icones/icone/carrinho.png">
+
 </nav>
 
 <nav id="fundo " class="fundo"> 

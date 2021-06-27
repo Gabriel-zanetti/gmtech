@@ -10,8 +10,25 @@ body{
 
 }
 
+.submenu nav{
+  margin-top:7px;
 
+}
+ .pesquisa button{
+        border:none!important;
+        background:#0dcaf0;
+    }
+    .pesquisa input{
+        width:12rem;
+         border:none!important;
+         background:#00b1eb;
+    }
+    .pesquisa{
+        background:#fff;
+        border-radius:10px;
+        background:#000000;
 
+    }
 .carrinho{
      animation-name: example;
   animation-duration: 10s;
@@ -22,16 +39,16 @@ body{
      background: #00b1eb;
    bottom: 74px;
    z-index:4;
-   margin-left:78%;
+   right:10px;
    width: 90px; 
     height: 90px;
  border-radius: 100px;
 }
 @keyframes example {
   0%   {background-color:#20b9ab;bottom: 70px;}
-  25%  {background-color:#10aed2;bottom: 78px }
-  50%  {background-color:#3297bde6;bottom: 70px}
-  75%  {background-color:#1132d6e6;bottom: 78px }
+  25%  {background-color:#22c9ef;bottom: 78px }
+  50%  {background-color:#34c7ffe6;bottom: 70px}
+  75%  {background-color:#11d69fe6;bottom: 78px }
   100% {background-color:#0dcaf0;bottom: 70px }
 }
 .carrinho img{
@@ -40,6 +57,11 @@ body{
     border-radius: 100px;
     margin-left:5px;
     margin-top:5px;
+}
+#logo2{
+         border:none!important;
+         color:#111;
+
 }
 
 .menu button{
